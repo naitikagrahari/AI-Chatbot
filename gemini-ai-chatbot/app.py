@@ -9,7 +9,7 @@ app = Flask(__name__)
 client = genai.Client()
 
 # Maintains conversation context across messages
-chat_session = client.chats.create(model="gemini-2.5-flash")
+chat_session = client.chats.create(model="gemini-3.8-flash")
 
 HTML_TEMPLATE = """
 <!DOCTYPE html>
